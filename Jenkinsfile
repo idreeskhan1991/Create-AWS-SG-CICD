@@ -21,7 +21,6 @@ String credentialsId = 'awsCredentials'
       }
     }
   }
-
   // Run terraform plan
   stage('plan') {
     node {
