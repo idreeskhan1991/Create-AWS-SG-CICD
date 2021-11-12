@@ -37,7 +37,7 @@ String credentialsId = 'awsCredentials'
     }
   }
 
-  if (env.BRANCH_NAME == 'master') {
+  if (env.BRANCH_NAME == 'main') {
 
     // Run terraform apply
     stage('apply') {
